@@ -1,0 +1,764 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+@import url('https://fonts.cdnfonts.com/css/outfit');
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --primary :#FDCF09;
+    --secondary :#2F2F2F;
+    --light : #ffffff;
+    --dark : #000000;
+}
+
+/*nav-bar-start*/
+.navbar-section{
+    font-family: 'Gotham';
+    font-weight: 400;
+    color: var(--light);
+}
+.navbar-logo{
+    width: 30%;
+}
+.nav-right{
+    width: 70%; 
+}
+.navbar{
+    background: var(--primary);
+}
+.nav-link{
+    color: var(--dark) !important;
+}
+.setActive{
+    color: #fff!important;
+}
+.nav-btn{
+    width: 147px;
+    height: 41px;
+    border-radius: 12px;
+    background: var(--dark);
+    color: var(--light);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    transition: ease-in 0.3ms;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: var(--light);
+    border: 1px solid var(--light);
+    color: var(--dark);
+}
+.menuBtn{
+    display: none;
+    color: var(--dark);
+    cursor: pointer;
+}
+/*nav-bar-end*/
+/*hero-section-start*/
+.hero-section{
+    background: var(--primary) !important;
+    height: 640px;
+    padding-top: 200px;
+}
+.hero-box{
+    height: 100%;
+}
+.hero-text-box{
+    height: 100%;
+    color: var(--light);
+    font-family: 'Poppins', sans-serif !important;
+    margin-bottom: 75px;
+}
+.hero-text-box img{
+    left: 0;
+    right: 0;
+    height: 90%;
+}
+.hero-text{
+    width: 100%;
+    height: 100%;
+}
+.hero-text div{
+    top: -63px;
+}
+.hero-text p:first-child{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 52px;
+    left: 0;
+    right: 0;
+}
+.hero-text p:nth-child(2){
+    font-style: normal;
+    font-weight: 800;
+    font-size: 115px;
+    line-height: 172px;
+    left: 0;
+    right: 0;
+}
+/*hero-section-end*/
+/*second-section-start*/
+.main-bg{
+    background-color: var(--primary);
+}
+.main-section{
+    background-color: var(--dark);
+    border-radius: 126px 126px 0px 0px;
+}
+.second-box{
+    margin-bottom: 200px;
+    width: 65%;
+    height: 500px;
+    margin: auto;
+}
+.second-section {
+    font-family: 'Poppins';
+    background-color: var(--dark);
+}
+
+.second-section p{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+    text-align: left;
+}
+.second-section p:first-child{
+    color: var(--light);
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    left: 7px;
+
+}
+.second-section p:nth-child(2){
+    color: var(--primary);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 225px;
+    top: 130px;
+
+}
+.second-section p:nth-child(3){
+    color: var(--light);
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 126px;
+    letter-spacing: 0em;
+    top: 270px;
+}
+/*second-section-end*/
+/*partner-section-start*/
+.partner-section{
+    font-family: 'Poppins';
+    color: var(--light);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 94%;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+}
+.partner-section span{
+    color: var(--primary);
+}
+/* .sec-partner-section{ */
+
+.partner-section div{
+    width: 911px;
+    height: 94px;
+    background: var(--primary);
+    color: var(--light);
+    border-radius: 17px;
+    justify-content: space-evenly;
+}
+
+/*partner-section-end*/
+/*mission-section-start*/
+.mission-box{
+    font-family: 'Poppins';
+}
+.mission-box div p:first-child{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 119px;
+    line-height: 178px;
+    color: var(--primary);
+    margin-top: 18px;
+}
+.mission-box div p:last-child{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43.2px;
+    line-height: 65px;
+    color: var(--light);
+    line-height: 95%;
+}
+.third-section{
+    font-family: 'Poppins';
+    width: 823px;
+    color: var(--light);
+}
+.third-section p:first-child{
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 22px;
+}
+.our-mission p:last-child{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 119px;
+    line-height: 178px;
+    color: var(--primary);
+    margin-right: 110px;
+    
+}
+.our-mission p:first-child{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 43.2px;
+    line-height: 65px;
+    color: var(--light);
+    transform: rotate(-90deg);
+    padding-right: 10px;
+}
+.third-section-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 22px;
+    color: var(--light);
+}
+/*opportunity-section-start */
+.opportunity-section p{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55.6px;
+    line-height: 109%;
+    color: var(--primary);
+}
+.opportunity-section span{
+    color: var(--light);
+}
+.chart-box{
+    width: 950px ;
+    height: 517px;
+}
+.chart{
+    width: 934px;
+    height: 517px;
+    display: block;
+}
+.chart p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.2px;
+    line-height: 94%;
+    color: var(--light);
+    transform: rotate(-90deg);
+}
+.chart-left p{
+    top: 288px;
+    left: -125px;
+}
+.chart-right p{
+    top: -259px;
+    right: -153px;
+}
+.numbers{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+}
+.numbers li{
+    list-style: none;
+    height: 168px;
+    position: relative;
+    bottom: 153px;
+}
+
+.numbers span{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.bars{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 517px;
+}
+
+.bars li{
+    display: table-cell;
+    width: 74px;
+    height: 517px;
+    position: relative;
+}
+
+.bars span{
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    left: 10px;
+}
+
+.bars .bar{
+    display: block;
+    background: var(--primary);
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 19px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 11px 11px 0px 0px;
+}
+.bars .bar:hover{
+    background: #ffdd3c;
+    cursor: pointer;
+}
+.bars .bar:before{
+    color: #fff;
+    content: attr(data-percentage) '%';
+    position: relative;
+    bottom: 20px;
+}
+/*opportunity-section-end */
+/* client-section-start */
+.client-section{
+    font-family: 'Poppins';
+    width: 100%;
+    margin-top: 200px;
+}
+.client-section p{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55.6px;
+    line-height: 108%;
+    color: var(--light);
+}
+.client-section span{
+    color: var(--primary);
+    
+}
+.client-section img{
+    width: 100%;
+}
+.logo div{
+    padding-left: 0;
+}
+.logo-img img{
+    width: 80%;
+}
+
+/* client-section-end */
+/* team-section-start */
+.team-section{
+    margin: auto;
+}
+.team-text p{
+    width: 663px;
+    height: 108px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55.6px;
+    line-height: 96.5%;
+    color: var(--light);
+    margin: auto;
+}
+.team-section p:last-child{
+    margin-top: -50px;
+}
+.team-text span{
+    color: var(--primary);
+}
+.team-box div{
+    line-height: 10px;
+}
+.team-name p{
+    color: var(--primary);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 96.5%;
+    margin-top: -12px;
+}
+.team-name p:first-child{
+    color: var(--light);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 96.5%;
+} 
+/* team-section-end */
+/* footer-section-start */
+
+.footer p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--primary);
+}
+.footer div p{
+    color: var(--light);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+}
+.footer-end p{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--light);
+}
+.footer-end-text {
+    background: var(--primary);
+    width: 343px;
+    height: 56px;
+    border-radius: 70px;
+    padding: 0 10px;
+}
+.footer-end-text p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    padding-left: 10px;
+    background-color: var(--primary);
+    color: var(--dark);
+    opacity: 0.52;
+    
+}
+.footer-end-text button{
+    background-color: var(--dark);
+    color: var(--light);
+    width: 117px;
+    height: 39px;
+    left: 1039px;
+    top: 6298px;
+    border-radius: 70px;
+    
+}
+/* footer-section-end */
+@media screen  and (max-width : 1024px) {
+    .second-section p:nth-child(2) {
+        font-size: 106px;
+        top: 116px;
+    }
+    .second-section p:nth-child(3) {
+        font-size: 59px;
+        top: 230px;
+    }
+    .logo_2{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:940px) {
+
+    .bars .bar{
+        width: 50px;
+    }
+    .chart-left p{
+        left: -88px;
+    }
+    .chart-right p{
+        right: -137px;
+    }
+}
+@media screen and (max-width:780px) {
+    .nav-right{
+        display: none;
+    }
+    .menuBtn{
+        display: block;
+    }
+    .menuBtn button:focus{
+        outline: none;
+    }
+    .show-nav-links{
+        display: block;
+        animation: dropDown 0.5s linear;
+    }
+    .nav-right{
+        width: 100%;
+        height: 54vh;
+        position: absolute;
+        top: 6vh;
+        right: 0;
+        z-index: -1;
+        background-color: #fdcf0980;
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-item a{
+        font-size: 2rem !important;
+    }
+    .bacBtn{
+        margin-top: 37px;
+        
+    }
+    .bacBtn button{
+        font-size: 2rem;
+        width: 231px !important;
+        height: 80px !important;
+    }
+    .second-box{
+        width: 79%;
+    }
+    .partner-section div{
+        width: 760px;
+    }
+    .third-section p:first-child{
+        width: 94%;
+    }
+    .opp-text{
+        margin-bottom: 70px;
+    }
+    .chart-box{
+        width:100%;
+        height: 400px;
+    }
+    .chart{
+        width: 100%;
+    }
+    .chart-left,.chart-right{
+        width: 10%;
+    }
+    .chart-left p {
+        top: 257px;
+        left: -54px;
+        font-size: 20px;
+    }
+    .chart-right p{
+        top: -321px;
+        right: -781px;
+        font-size: 20px;
+    }
+
+    .numbers{
+        width: 10%;
+    }
+    .numbers li{
+        bottom: 115px;
+        height: 129px;
+        left: -2px;
+    }
+    .bars{
+        width: 80%;
+    }
+    .bars .bar{
+        border-radius: 7px 7px 0 0;
+        width: 55%;
+        margin-left: -10px;
+    }
+    .bars li{
+        height: 400px;
+        width: 55px;
+    }
+    .bars span{
+        bottom: -23px;
+        left: -12px;
+    }
+}
+@media screen and (max-width : 640px) {
+    .nav-right{
+        height: 79vh;
+    }
+
+    .hero-section{
+        height: 460px;
+    }
+    .hero-text p:nth-child(2) {
+        font-size: 64px !important;
+    }
+    .main-section{
+        border-radius: 0;
+    }
+    .second-box{
+        width: 75%;
+        height: 150px;
+    }
+    .second-section p:first-child {
+        font-size: 10px;
+        top: 30px;
+        left: 2px;
+    }
+    .second-section p:nth-child(2) {
+        font-size: 46px;
+        top: -32px;
+    }
+    .second-section p:nth-child(3) {
+        font-size: 26px;
+        top: 45px;
+    }
+    .partner-section{
+        font-size: 20px;
+    }
+    .partner-section div {
+        width: 354px;
+        height: 65px;
+    }
+    .mission-box,.third-section{
+        margin-top: -30px;
+    }
+    .mission-box div p:first-child {
+        font-size: 60px;
+    }
+    .mission-box div p:last-child {
+        font-size: 21px;
+    }
+    .third-section p:first-child {
+        width: 45%;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .mission-text{
+        width: 45%;
+        margin-top: -43px;
+    }
+    .our-mission{
+        margin-right: 15px;
+    }
+    .our-mission p:first-child {
+        align-items: center !important;
+        padding-top: 59px;
+        padding-left: 8px;
+        font-size: 20px;
+    }
+    .our-mission p:last-child {
+        font-size: 60px;
+        margin-right: 17px;
+    }
+    .third-section-text{
+        color: var(--light);
+        font-size: 11px;
+        margin-top: -45px;
+    }
+    .opportunity-section p{
+        font-size: 20px;
+    }
+    .chart-box{
+        width:100%;
+        height: 400px;
+    }
+    .chart{
+        width: 100%;
+    }
+    .chart-left,.chart-right{
+        width: 10%;
+    }
+    .chart-left p {
+        top: 257px;
+        left: -67px;
+        font-size: 16px;
+    }
+    .chart-right p{
+        top: -292px;
+        right: -429px;
+        font-size: 16px;
+    }
+
+    .numbers{
+        width: 10%;
+    }
+    .numbers li{
+        bottom: 115px;
+        height: 129px;
+        left: -2px;
+    }
+    .bars{
+        width: 80%;
+    }
+    .bars .bar{
+        border-radius: 7px 7px 0 0;
+        width: 55%;
+        margin-left: -10px;
+    }
+    .bars li{
+        height: 400px;
+        width: 50px;
+    }
+    .bars span{
+        bottom: -23px;
+        left: -12px;
+    }
+    .client-section p{
+        font-size: 20px;
+    }
+    .team-text p{
+        font-size: 20px;
+        width: auto;
+    }
+    .team-section p:last-child{
+        margin-top: -90px;
+    }
+    .team-name p{
+        font-size: 11px;
+    }
+    .footer,.footer-end{
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .mission-text{
+        width: 58%;
+    }
+    .our-mission p:first-child{
+        padding-top: 100px;
+    }
+    .our-mission p:last-child {
+        margin-right: 78px;
+    }
+    .third-section p:first-child {
+        width: 57%;
+    }
+    .chart-right p{
+        right: -516px;
+    }
+}
+
+@keyframes dropDown{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
